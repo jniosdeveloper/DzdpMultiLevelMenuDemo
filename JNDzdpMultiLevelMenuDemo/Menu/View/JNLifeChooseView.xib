@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="WiU-SA-5P6" customClass="JNLifeChooseView">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qvp-S7-Ko2">
+                    <rect key="frame" x="0.0" y="0.0" width="343" height="40"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="TK4-6e-DY6">
+                    <rect key="frame" x="0.0" y="0.0" width="343" height="40"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ciC-m7-mfq">
+                            <rect key="frame" x="0.0" y="0.0" width="171.5" height="40"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RkW-2V-0bn">
+                                    <rect key="frame" x="0.0" y="0.0" width="171.5" height="40"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="全部类型" image="life_arrow_down">
+                                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </state>
+                                    <state key="selected" image="invoice_invoiceList_arrowUp">
+                                        <color key="titleColor" red="0.85882352939999995" green="0.53333333329999999" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="clickTypeButton:" destination="WiU-SA-5P6" eventType="touchUpInside" id="UXc-yH-PPb"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="RkW-2V-0bn" secondAttribute="bottom" id="4pk-Pw-re2"/>
+                                <constraint firstAttribute="trailing" secondItem="RkW-2V-0bn" secondAttribute="trailing" id="KNs-gm-iqC"/>
+                                <constraint firstItem="RkW-2V-0bn" firstAttribute="top" secondItem="ciC-m7-mfq" secondAttribute="top" id="S0x-kk-0rq"/>
+                                <constraint firstItem="RkW-2V-0bn" firstAttribute="leading" secondItem="ciC-m7-mfq" secondAttribute="leading" id="w3K-do-GCF"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YBK-0g-nzp">
+                            <rect key="frame" x="171.5" y="0.0" width="171.5" height="40"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XpS-L2-7HK">
+                                    <rect key="frame" x="0.0" y="0.0" width="171.5" height="40"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="距离/地铁" image="life_arrow_down">
+                                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </state>
+                                    <state key="selected" image="invoice_invoiceList_arrowUp">
+                                        <color key="titleColor" red="0.85882352939999995" green="0.53333333329999999" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="clickTransButton:" destination="WiU-SA-5P6" eventType="touchUpInside" id="Id9-w2-UDm"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="XpS-L2-7HK" firstAttribute="leading" secondItem="YBK-0g-nzp" secondAttribute="leading" id="6V2-KB-PkO"/>
+                                <constraint firstItem="XpS-L2-7HK" firstAttribute="top" secondItem="YBK-0g-nzp" secondAttribute="top" id="Oy8-Oa-KMj"/>
+                                <constraint firstAttribute="bottom" secondItem="XpS-L2-7HK" secondAttribute="bottom" id="fIp-1k-uds"/>
+                                <constraint firstAttribute="trailing" secondItem="XpS-L2-7HK" secondAttribute="trailing" id="tl3-IM-27V"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vd5-6P-LDf">
+                    <rect key="frame" x="171" y="11" width="1" height="18"/>
+                    <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="9gL-DX-YrX"/>
+                        <constraint firstAttribute="height" constant="18" id="XhN-ld-NSD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="hjI-Dt-3GT"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="hjI-Dt-3GT" firstAttribute="trailing" secondItem="TK4-6e-DY6" secondAttribute="trailing" id="O6O-7a-SOV"/>
+                <constraint firstAttribute="bottom" secondItem="TK4-6e-DY6" secondAttribute="bottom" id="ama-cH-4Cn"/>
+                <constraint firstItem="hjI-Dt-3GT" firstAttribute="trailing" secondItem="qvp-S7-Ko2" secondAttribute="trailing" id="f7s-GG-2LB"/>
+                <constraint firstItem="TK4-6e-DY6" firstAttribute="top" secondItem="WiU-SA-5P6" secondAttribute="top" id="fML-0d-dZg"/>
+                <constraint firstItem="Vd5-6P-LDf" firstAttribute="centerY" secondItem="WiU-SA-5P6" secondAttribute="centerY" id="fkP-DG-f9c"/>
+                <constraint firstItem="qvp-S7-Ko2" firstAttribute="leading" secondItem="hjI-Dt-3GT" secondAttribute="leading" id="g5L-GR-iH8"/>
+                <constraint firstItem="Vd5-6P-LDf" firstAttribute="centerX" secondItem="WiU-SA-5P6" secondAttribute="centerX" id="kaE-s7-fxq"/>
+                <constraint firstAttribute="bottom" secondItem="qvp-S7-Ko2" secondAttribute="bottom" id="kf5-AE-VXC"/>
+                <constraint firstItem="qvp-S7-Ko2" firstAttribute="top" secondItem="WiU-SA-5P6" secondAttribute="top" id="rmq-Nz-JwM"/>
+                <constraint firstItem="TK4-6e-DY6" firstAttribute="leading" secondItem="hjI-Dt-3GT" secondAttribute="leading" id="uin-WC-vUm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bgImageView" destination="qvp-S7-Ko2" id="G5s-1y-XNe"/>
+                <outlet property="transButton" destination="XpS-L2-7HK" id="ClD-NT-acd"/>
+                <outlet property="typeButton" destination="RkW-2V-0bn" id="KgE-nr-4Lj"/>
+            </connections>
+            <point key="canvasLocation" x="37" y="-102"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="invoice_invoiceList_arrowUp" width="14" height="8"/>
+        <image name="life_arrow_down" width="10" height="6"/>
+    </resources>
+</document>

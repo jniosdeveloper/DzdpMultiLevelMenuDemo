@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		313CA4AC28AE7BAA000CB101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4AB28AE7BAA000CB101 /* AppDelegate.m */; };
+		313CA4B228AE7BAA000CB101 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4B128AE7BAA000CB101 /* ViewController.m */; };
+		313CA4B528AE7BAA000CB101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 313CA4B328AE7BAA000CB101 /* Main.storyboard */; };
+		313CA4B728AE7BAC000CB101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 313CA4B628AE7BAC000CB101 /* Assets.xcassets */; };
+		313CA4BA28AE7BAC000CB101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 313CA4B828AE7BAC000CB101 /* LaunchScreen.storyboard */; };
+		313CA4BD28AE7BAC000CB101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4BC28AE7BAC000CB101 /* main.m */; };
+		313CA4C628AE7C31000CB101 /* JNLifeChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4C528AE7C31000CB101 /* JNLifeChooseView.m */; };
+		313CA4C828AE7C47000CB101 /* JNLifeChooseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 313CA4C728AE7C47000CB101 /* JNLifeChooseView.xib */; };
+		313CA4CC28AE7DAF000CB101 /* UIImage+common.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4CB28AE7DAF000CB101 /* UIImage+common.m */; };
+		313CA4D028AE7E60000CB101 /* UIButton+common.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4CF28AE7E60000CB101 /* UIButton+common.m */; };
+		313CA4D428AE7EF0000CB101 /* UIColor+common.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4D328AE7EF0000CB101 /* UIColor+common.m */; };
+		313CA4D728AE7F30000CB101 /* JNLifeMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4D628AE7F30000CB101 /* JNLifeMenuView.m */; };
+		313CA4DA28AE7F61000CB101 /* JNTypeShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4D928AE7F61000CB101 /* JNTypeShowView.m */; };
+		313CA4DF28AE7FC5000CB101 /* JNLifeShopCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4DE28AE7FC5000CB101 /* JNLifeShopCategoryModel.m */; };
+		313CA4E528AE81ED000CB101 /* JNLifeMenuTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4E328AE81ED000CB101 /* JNLifeMenuTextCell.m */; };
+		313CA4E628AE81ED000CB101 /* JNLifeMenuTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 313CA4E428AE81ED000CB101 /* JNLifeMenuTextCell.xib */; };
+		313CA4EA28AE8299000CB101 /* JNLifeMenuTextImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4E728AE8299000CB101 /* JNLifeMenuTextImageCell.m */; };
+		313CA4EB28AE8299000CB101 /* JNLifeMenuTextImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 313CA4E828AE8299000CB101 /* JNLifeMenuTextImageCell.xib */; };
+		313CA4EF28AE8320000CB101 /* UIView+common.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4EE28AE8320000CB101 /* UIView+common.m */; };
+		313CA4F228AE8433000CB101 /* JNTransShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4F028AE8433000CB101 /* JNTransShowView.m */; };
+		313CA4FF28AE8471000CB101 /* JNLifeTransModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4F528AE8471000CB101 /* JNLifeTransModel.m */; };
+		313CA50028AE8471000CB101 /* JNLifeDistanceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4F828AE8471000CB101 /* JNLifeDistanceModel.m */; };
+		313CA50228AE8471000CB101 /* JNLifeTransSelectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA4FB28AE8471000CB101 /* JNLifeTransSelectModel.m */; };
+		313CA50628AE8692000CB101 /* JNLifeModuleDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA50528AE8692000CB101 /* JNLifeModuleDataManager.m */; };
+		313CA50C28AE86CB000CB101 /* JNLifeStationsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 313CA50A28AE86CB000CB101 /* JNLifeStationsModel.m */; };
+		313CA51028AE88D7000CB101 /* LineStations.json in Resources */ = {isa = PBXBuildFile; fileRef = 313CA50E28AE88D7000CB101 /* LineStations.json */; };
+		313CA51128AE88D7000CB101 /* ShopCategory.json in Resources */ = {isa = PBXBuildFile; fileRef = 313CA50F28AE88D7000CB101 /* ShopCategory.json */; };
+		7D1361E1DCE7E37C198F2822 /* libPods-JNDzdpMultiLevelMenuDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5854A43EE83FB70AA6ACBC8 /* libPods-JNDzdpMultiLevelMenuDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		313CA4A728AE7BAA000CB101 /* JNDzdpMultiLevelMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNDzdpMultiLevelMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		313CA4AA28AE7BAA000CB101 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		313CA4AB28AE7BAA000CB101 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		313CA4B028AE7BAA000CB101 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		313CA4B128AE7BAA000CB101 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		313CA4B428AE7BAA000CB101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		313CA4B628AE7BAC000CB101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		313CA4B928AE7BAC000CB101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		313CA4BB28AE7BAC000CB101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		313CA4BC28AE7BAC000CB101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		313CA4C428AE7C31000CB101 /* JNLifeChooseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNLifeChooseView.h; sourceTree = "<group>"; };
+		313CA4C528AE7C31000CB101 /* JNLifeChooseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNLifeChooseView.m; sourceTree = "<group>"; };
+		313CA4C728AE7C47000CB101 /* JNLifeChooseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JNLifeChooseView.xib; sourceTree = "<group>"; };
+		313CA4CA28AE7DAF000CB101 /* UIImage+common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+common.h"; sourceTree = "<group>"; };
+		313CA4CB28AE7DAF000CB101 /* UIImage+common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+common.m"; sourceTree = "<group>"; };
+		313CA4CE28AE7E60000CB101 /* UIButton+common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+common.h"; sourceTree = "<group>"; };
+		313CA4CF28AE7E60000CB101 /* UIButton+common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+common.m"; sourceTree = "<group>"; };
+		313CA4D228AE7EF0000CB101 /* UIColor+common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+common.h"; sourceTree = "<group>"; };
+		313CA4D328AE7EF0000CB101 /* UIColor+common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+common.m"; sourceTree = "<group>"; };
+		313CA4D528AE7F30000CB101 /* JNLifeMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNLifeMenuView.h; sourceTree = "<group>"; };
+		313CA4D628AE7F30000CB101 /* JNLifeMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNLifeMenuView.m; sourceTree = "<group>"; };
+		313CA4D828AE7F61000CB101 /* JNTypeShowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNTypeShowView.h; sourceTree = "<group>"; };
+		313CA4D928AE7F61000CB101 /* JNTypeShowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNTypeShowView.m; sourceTree = "<group>"; };
+		313CA4DD28AE7FC5000CB101 /* JNLifeShopCategoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNLifeShopCategoryModel.h; sourceTree = "<group>"; };
+		313CA4DE28AE7FC5000CB101 /* JNLifeShopCategoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNLifeShopCategoryModel.m; sourceTree = "<group>"; };
+		313CA4E128AE8159000CB101 /* AppMacro.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.pch; sourceTree = "<group>"; };
+		313CA4E228AE81ED000CB101 /* JNLifeMenuTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNLifeMenuTextCell.h; sourceTree = "<group>"; };
+		313CA4E328AE81ED000CB101 /* JNLifeMenuTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNLifeMenuTextCell.m; sourceTree = "<group>"; };
+		313CA4E428AE81ED000CB101 /* JNLifeMenuTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JNLifeMenuTextCell.xib; sourceTree = "<group>"; };
+		313CA4E728AE8299000CB101 /* JNLifeMenuTextImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNLifeMenuTextImageCell.m; sourceTree = "<group>"; };
+		313CA4E828AE8299000CB101 /* JNLifeMenuTextImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JNLifeMenuTextImageCell.xib; sourceTree = "<group>"; };
+		313CA4E928AE8299000CB101 /* JNLifeMenuTextImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNLifeMenuTextImageCell.h; sourceTree = "<group>"; };
+		313CA4ED28AE8320000CB101 /* UIView+common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+common.h"; sourceTree = "<group>"; };
+		313CA4EE28AE8320000CB101 /* UIView+common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+common.m"; sourceTree = "<group>"; };
+		313CA4F028AE8433000CB101 /* JNTransShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNTransShowView.m; sourceTree = "<group>"; };
+		313CA4F128AE8433000CB101 /* JNTransShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNTransShowView.h; sourceTree = "<group>"; };
+		313CA4F528AE8471000CB101 /* JNLifeTransModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNLifeTransModel.m; sourceTree = "<group>"; };
+		313CA4F628AE8471000CB101 /* JNLifeTransSelectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNLifeTransSelectModel.h; sourceTree = "<group>"; };
+		313CA4F828AE8471000CB101 /* JNLifeDistanceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNLifeDistanceModel.m; sourceTree = "<group>"; };
+		313CA4FB28AE8471000CB101 /* JNLifeTransSelectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNLifeTransSelectModel.m; sourceTree = "<group>"; };
+		313CA4FC28AE8471000CB101 /* JNLifeTransModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNLifeTransModel.h; sourceTree = "<group>"; };
+		313CA4FD28AE8471000CB101 /* JNLifeDistanceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNLifeDistanceModel.h; sourceTree = "<group>"; };
+		313CA50428AE8692000CB101 /* JNLifeModuleDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNLifeModuleDataManager.h; sourceTree = "<group>"; };
+		313CA50528AE8692000CB101 /* JNLifeModuleDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNLifeModuleDataManager.m; sourceTree = "<group>"; };
+		313CA50728AE86CB000CB101 /* JNLifeStationsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNLifeStationsModel.h; sourceTree = "<group>"; };
+		313CA50A28AE86CB000CB101 /* JNLifeStationsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNLifeStationsModel.m; sourceTree = "<group>"; };
+		313CA50E28AE88D7000CB101 /* LineStations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LineStations.json; sourceTree = "<group>"; };
+		313CA50F28AE88D7000CB101 /* ShopCategory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ShopCategory.json; sourceTree = "<group>"; };
+		477054D7FAE4014A4141F4A4 /* Pods-JNDzdpMultiLevelMenuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNDzdpMultiLevelMenuDemo.debug.xcconfig"; path = "Target Support Files/Pods-JNDzdpMultiLevelMenuDemo/Pods-JNDzdpMultiLevelMenuDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		601693D9F5295C3DE4456A79 /* Pods-JNDzdpMultiLevelMenuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNDzdpMultiLevelMenuDemo.release.xcconfig"; path = "Target Support Files/Pods-JNDzdpMultiLevelMenuDemo/Pods-JNDzdpMultiLevelMenuDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E5854A43EE83FB70AA6ACBC8 /* libPods-JNDzdpMultiLevelMenuDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JNDzdpMultiLevelMenuDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		313CA4A428AE7BAA000CB101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1361E1DCE7E37C198F2822 /* libPods-JNDzdpMultiLevelMenuDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25486D4A613F92FBEFC55FF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5854A43EE83FB70AA6ACBC8 /* libPods-JNDzdpMultiLevelMenuDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		313CA49E28AE7BAA000CB101 = {
+			isa = PBXGroup;
+			children = (
+				313CA4A928AE7BAA000CB101 /* JNDzdpMultiLevelMenuDemo */,
+				313CA4A828AE7BAA000CB101 /* Products */,
+				9DE04F40550383BC16D3079E /* Pods */,
+				25486D4A613F92FBEFC55FF3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		313CA4A828AE7BAA000CB101 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				313CA4A728AE7BAA000CB101 /* JNDzdpMultiLevelMenuDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		313CA4A928AE7BAA000CB101 /* JNDzdpMultiLevelMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				313CA4EC28AE8312000CB101 /* UIView */,
+				313CA4D128AE7ED1000CB101 /* UIColor */,
+				313CA4CD28AE7E50000CB101 /* UIButton */,
+				313CA4C928AE7D8E000CB101 /* UIImage */,
+				313CA4C328AE7C1B000CB101 /* Menu */,
+				313CA4AA28AE7BAA000CB101 /* AppDelegate.h */,
+				313CA4AB28AE7BAA000CB101 /* AppDelegate.m */,
+				313CA4B028AE7BAA000CB101 /* ViewController.h */,
+				313CA4B128AE7BAA000CB101 /* ViewController.m */,
+				313CA4E128AE8159000CB101 /* AppMacro.pch */,
+				313CA4B328AE7BAA000CB101 /* Main.storyboard */,
+				313CA4B628AE7BAC000CB101 /* Assets.xcassets */,
+				313CA4B828AE7BAC000CB101 /* LaunchScreen.storyboard */,
+				313CA4BB28AE7BAC000CB101 /* Info.plist */,
+				313CA4BC28AE7BAC000CB101 /* main.m */,
+			);
+			path = JNDzdpMultiLevelMenuDemo;
+			sourceTree = "<group>";
+		};
+		313CA4C328AE7C1B000CB101 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				313CA50D28AE88C0000CB101 /* Resource */,
+				313CA50328AE8683000CB101 /* Manager */,
+				313CA4DC28AE7F92000CB101 /* Model */,
+				313CA4DB28AE7F8E000CB101 /* View */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		313CA4C928AE7D8E000CB101 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				313CA4CA28AE7DAF000CB101 /* UIImage+common.h */,
+				313CA4CB28AE7DAF000CB101 /* UIImage+common.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		313CA4CD28AE7E50000CB101 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				313CA4CE28AE7E60000CB101 /* UIButton+common.h */,
+				313CA4CF28AE7E60000CB101 /* UIButton+common.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		313CA4D128AE7ED1000CB101 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				313CA4D228AE7EF0000CB101 /* UIColor+common.h */,
+				313CA4D328AE7EF0000CB101 /* UIColor+common.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		313CA4DB28AE7F8E000CB101 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				313CA4C428AE7C31000CB101 /* JNLifeChooseView.h */,
+				313CA4C528AE7C31000CB101 /* JNLifeChooseView.m */,
+				313CA4C728AE7C47000CB101 /* JNLifeChooseView.xib */,
+				313CA4D528AE7F30000CB101 /* JNLifeMenuView.h */,
+				313CA4D628AE7F30000CB101 /* JNLifeMenuView.m */,
+				313CA4D828AE7F61000CB101 /* JNTypeShowView.h */,
+				313CA4D928AE7F61000CB101 /* JNTypeShowView.m */,
+				313CA4F128AE8433000CB101 /* JNTransShowView.h */,
+				313CA4F028AE8433000CB101 /* JNTransShowView.m */,
+				313CA4E228AE81ED000CB101 /* JNLifeMenuTextCell.h */,
+				313CA4E328AE81ED000CB101 /* JNLifeMenuTextCell.m */,
+				313CA4E428AE81ED000CB101 /* JNLifeMenuTextCell.xib */,
+				313CA4E928AE8299000CB101 /* JNLifeMenuTextImageCell.h */,
+				313CA4E728AE8299000CB101 /* JNLifeMenuTextImageCell.m */,
+				313CA4E828AE8299000CB101 /* JNLifeMenuTextImageCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		313CA4DC28AE7F92000CB101 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				313CA4FC28AE8471000CB101 /* JNLifeTransModel.h */,
+				313CA4F528AE8471000CB101 /* JNLifeTransModel.m */,
+				313CA4FD28AE8471000CB101 /* JNLifeDistanceModel.h */,
+				313CA4F828AE8471000CB101 /* JNLifeDistanceModel.m */,
+				313CA50728AE86CB000CB101 /* JNLifeStationsModel.h */,
+				313CA50A28AE86CB000CB101 /* JNLifeStationsModel.m */,
+				313CA4DD28AE7FC5000CB101 /* JNLifeShopCategoryModel.h */,
+				313CA4DE28AE7FC5000CB101 /* JNLifeShopCategoryModel.m */,
+				313CA4F628AE8471000CB101 /* JNLifeTransSelectModel.h */,
+				313CA4FB28AE8471000CB101 /* JNLifeTransSelectModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		313CA4EC28AE8312000CB101 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				313CA4ED28AE8320000CB101 /* UIView+common.h */,
+				313CA4EE28AE8320000CB101 /* UIView+common.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		313CA50328AE8683000CB101 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				313CA50428AE8692000CB101 /* JNLifeModuleDataManager.h */,
+				313CA50528AE8692000CB101 /* JNLifeModuleDataManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		313CA50D28AE88C0000CB101 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				313CA50E28AE88D7000CB101 /* LineStations.json */,
+				313CA50F28AE88D7000CB101 /* ShopCategory.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9DE04F40550383BC16D3079E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				477054D7FAE4014A4141F4A4 /* Pods-JNDzdpMultiLevelMenuDemo.debug.xcconfig */,
+				601693D9F5295C3DE4456A79 /* Pods-JNDzdpMultiLevelMenuDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		313CA4A628AE7BAA000CB101 /* JNDzdpMultiLevelMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313CA4C028AE7BAC000CB101 /* Build configuration list for PBXNativeTarget "JNDzdpMultiLevelMenuDemo" */;
+			buildPhases = (
+				B5C7BEB4359FCD231ECEA639 /* [CP] Check Pods Manifest.lock */,
+				313CA4A328AE7BAA000CB101 /* Sources */,
+				313CA4A428AE7BAA000CB101 /* Frameworks */,
+				313CA4A528AE7BAA000CB101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JNDzdpMultiLevelMenuDemo;
+			productName = JNDzdpMultiLevelMenuDemo;
+			productReference = 313CA4A728AE7BAA000CB101 /* JNDzdpMultiLevelMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		313CA49F28AE7BAA000CB101 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					313CA4A628AE7BAA000CB101 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 313CA4A228AE7BAA000CB101 /* Build configuration list for PBXProject "JNDzdpMultiLevelMenuDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 313CA49E28AE7BAA000CB101;
+			productRefGroup = 313CA4A828AE7BAA000CB101 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				313CA4A628AE7BAA000CB101 /* JNDzdpMultiLevelMenuDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		313CA4A528AE7BAA000CB101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313CA4BA28AE7BAC000CB101 /* LaunchScreen.storyboard in Resources */,
+				313CA51128AE88D7000CB101 /* ShopCategory.json in Resources */,
+				313CA4C828AE7C47000CB101 /* JNLifeChooseView.xib in Resources */,
+				313CA51028AE88D7000CB101 /* LineStations.json in Resources */,
+				313CA4B728AE7BAC000CB101 /* Assets.xcassets in Resources */,
+				313CA4EB28AE8299000CB101 /* JNLifeMenuTextImageCell.xib in Resources */,
+				313CA4E628AE81ED000CB101 /* JNLifeMenuTextCell.xib in Resources */,
+				313CA4B528AE7BAA000CB101 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5C7BEB4359FCD231ECEA639 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JNDzdpMultiLevelMenuDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		313CA4A328AE7BAA000CB101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313CA50C28AE86CB000CB101 /* JNLifeStationsModel.m in Sources */,
+				313CA4F228AE8433000CB101 /* JNTransShowView.m in Sources */,
+				313CA4CC28AE7DAF000CB101 /* UIImage+common.m in Sources */,
+				313CA4FF28AE8471000CB101 /* JNLifeTransModel.m in Sources */,
+				313CA50628AE8692000CB101 /* JNLifeModuleDataManager.m in Sources */,
+				313CA4EA28AE8299000CB101 /* JNLifeMenuTextImageCell.m in Sources */,
+				313CA4D728AE7F30000CB101 /* JNLifeMenuView.m in Sources */,
+				313CA4B228AE7BAA000CB101 /* ViewController.m in Sources */,
+				313CA50228AE8471000CB101 /* JNLifeTransSelectModel.m in Sources */,
+				313CA4E528AE81ED000CB101 /* JNLifeMenuTextCell.m in Sources */,
+				313CA4EF28AE8320000CB101 /* UIView+common.m in Sources */,
+				313CA4DA28AE7F61000CB101 /* JNTypeShowView.m in Sources */,
+				313CA4AC28AE7BAA000CB101 /* AppDelegate.m in Sources */,
+				313CA4BD28AE7BAC000CB101 /* main.m in Sources */,
+				313CA4DF28AE7FC5000CB101 /* JNLifeShopCategoryModel.m in Sources */,
+				313CA4D428AE7EF0000CB101 /* UIColor+common.m in Sources */,
+				313CA50028AE8471000CB101 /* JNLifeDistanceModel.m in Sources */,
+				313CA4C628AE7C31000CB101 /* JNLifeChooseView.m in Sources */,
+				313CA4D028AE7E60000CB101 /* UIButton+common.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		313CA4B328AE7BAA000CB101 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				313CA4B428AE7BAA000CB101 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		313CA4B828AE7BAC000CB101 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				313CA4B928AE7BAC000CB101 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		313CA4BE28AE7BAC000CB101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		313CA4BF28AE7BAC000CB101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		313CA4C128AE7BAC000CB101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477054D7FAE4014A4141F4A4 /* Pods-JNDzdpMultiLevelMenuDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 572G76Z7DA;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JNDzdpMultiLevelMenuDemo/AppMacro.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JNDzdpMultiLevelMenuDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackie.JNDzdpMultiLevelMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		313CA4C228AE7BAC000CB101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601693D9F5295C3DE4456A79 /* Pods-JNDzdpMultiLevelMenuDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 572G76Z7DA;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JNDzdpMultiLevelMenuDemo/AppMacro.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JNDzdpMultiLevelMenuDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackie.JNDzdpMultiLevelMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		313CA4A228AE7BAA000CB101 /* Build configuration list for PBXProject "JNDzdpMultiLevelMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313CA4BE28AE7BAC000CB101 /* Debug */,
+				313CA4BF28AE7BAC000CB101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		313CA4C028AE7BAC000CB101 /* Build configuration list for PBXNativeTarget "JNDzdpMultiLevelMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313CA4C128AE7BAC000CB101 /* Debug */,
+				313CA4C228AE7BAC000CB101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 313CA49F28AE7BAA000CB101 /* Project object */;
+}
