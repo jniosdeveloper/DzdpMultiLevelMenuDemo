@@ -1,0 +1,25 @@
+//
+//  Config-DzdpMultiLevelMenuDemo-beta.xcconfig
+//  JNDzdpMultiLevelMenuDemo
+//
+//  Created by jackie-pc on 2022/9/10.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// 引入cocoapods的配置
+#include "Pods/Target Support Files/Pods-JNDzdpMultiLevelMenuDemo/Pods-JNDzdpMultiLevelMenuDemo.beta.xcconfig"
+
+SLASH=/
+HOST_URL = http:${SLASH}/128.0.0.0
+//OTHER_LDFLAGS =  $(inherited) -framework "AFNetworking"
+
+// 配置链接的条件
+//OTHER_LDFLAGS[config=Debug][sdk=iphonesimulator*][arc=x86_64]=-framework "AFNetworking"
+
+// 不导出符号
+//OTHER_LDFLAGS =  $(inherited) -Xlinker -unexported_symbol -Xlinker _OBJC_CLASS_$_JNLifeTransModel
+
+// 查看当前文件的符号信息
+//OTHER_LDFLAGS =$(inherited) -Xlinker -S -Xlinker -map -Xlinker ${文件地址}
